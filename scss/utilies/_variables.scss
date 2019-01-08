@@ -1,0 +1,44 @@
+// Fonts
+$font-primary:              "Lato", sans-serif;
+
+// Breakpoints
+$breakpoints: (
+        "sm":               480px,
+        "med":              769px,
+        "lg":               1400px,
+);
+
+// Colors
+
+$white:                     #fff;
+
+$color-font-primary:        #878787;
+
+$color-primary:             #58e1c1;
+$color-secondary:           #51ddfc;
+$color-success:             #63cc82;
+$color-error:               #e4757a;
+$color-warning:             #fd7856;
+$color-info:                #927bc1;
+
+
+$box_colors: (
+        "color-1":          null,
+        "color-2":          null,
+        "color-3":          #DEB2EE,
+        "color-4":          $color-secondary,
+        "color-5":          lighten($color-success, 10%),
+        "color-6":          darken($color-secondary, 20%),
+        "color-7":          lighten($color-error, 10%),
+        "color-8":          lighten($color-warning, 10%),
+        "color-9":          null,
+        "color-10":         null,
+        "color-11":         null,
+        "color-12":         lighten($color-primary, 10%)
+);
+
+// GRID
+$g-col-width:               83px;
+$g-gutter-width:            10px;
+$g-col-count:               12;
+$g-cont-max-w:              1124px;
